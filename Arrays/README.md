@@ -43,5 +43,5 @@ An array is a collection of items of the same variable type that are stored at c
      array_name[i] = valuei;
    }`
    
-Program: <a href="https://github.com/DevFreAkeD/Data-Structure-Revision/blob/main/Arrays/Array_Initialization.cpp">Array_Initialization.cpp</a>
+Program: <a href="https://github.com/DevFreAkeD/Data-Structure-Revision/blob/main/Arrays/01_Array_Initialization.cpp">Array_Initialization.cpp</a>
 
