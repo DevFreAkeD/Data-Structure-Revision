@@ -30,6 +30,7 @@ An array is a collection of items of the same variable type that are stored at c
 
 **Example:**
 `int arr_int[5];` // array of integers
+or
 `char arr_char[5];` // array of characters
 
 ### Array Initialization
