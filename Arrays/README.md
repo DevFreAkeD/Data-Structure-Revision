@@ -15,8 +15,27 @@ An array is a collection of items of the same variable type that are stored at c
 - **One-dimensional arrays:** These arrays store a single row of elements.
 - **Multidimensional arrays:** These arrays store multiple rows of elements.
 
-##Array Operations
+## Array Operations
 - **Traversal:** Visiting each element of an array in a specific order (e.g., sequential, reverse).
 - **Insertion:** Adding a new element to an array at a specific index.
 - **Deletion:** Removing an element from an array at a specific index.
 - **Searching:** Finding the index of an element in an array.
+  
+<hr>
+
+### Syntax of Array Declaration
+`data_type array_name [size];`
+  or
+`data_type array_name [size1] [size2]...[sizeN];`
+
+**Example:**
+`int arr_int[5];` // array of integers
+`char arr_char[5];` // array of characters
+
+### Array Initialization
+1. Array Initialization with Declaration: `data_type array_name [size] = {value1, value2, ... valueN};`
+   Example: `int arr[5] = {12, 10, 3, 5, 99];`
+
+3. Array Initialization with Declaration without Size: `data_type array_name [] = {value1, value2, ... valueN};`
+   Example: `int arr[] = {12, 10, 3, 5, 99};`
+
