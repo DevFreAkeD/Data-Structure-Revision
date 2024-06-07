@@ -35,6 +35,13 @@ An array is a collection of items of the same variable type that are stored at c
 1. Array Initialization with Declaration: `data_type array_name [size] = {value1, value2, ... valueN};`
    Example: `int arr[5] = {12, 10, 3, 5, 99];`
 
-3. Array Initialization with Declaration without Size: `data_type array_name [] = {value1, value2, ... valueN};`
+2. Array Initialization with Declaration without Size: `data_type array_name [] = {value1, value2, ... valueN};`
    Example: `int arr[] = {12, 10, 3, 5, 99};`
+
+3. Array Initialization after Declaration (Using Loops):
+   `for (int i = 0; i < N; i++) {
+     array_name[i] = valuei;
+   }`
+   
+Program: <a href="https://github.com/DevFreAkeD/Data-Structure-Revision/blob/main/Arrays/Array_Initialization.cpp">Array_Initialization.cpp</a>
 
